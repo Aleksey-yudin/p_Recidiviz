@@ -209,3 +209,138 @@ body{
     display: block;
     margin-top: 220px;
 }
+
+.lamba{
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+
+.lamba-black{
+    background-color: #363636;
+    padding: 100px 0 50px;
+    color: #fff
+}
+
+.lamba-black__inner{
+    position: relative;
+}
+
+.lamba-black__inner::before{
+    content: '';
+    position: absolute;
+    background-image: url(/img/pol1.svg);
+    width: 185px;
+    height: 213px;
+    top: 200px;
+    left: -130px;
+}
+
+.lamba-black__inner::after{
+    content: '';
+    position: absolute;
+    background-image: url(/img/pol2.svg);
+    width: 498px;
+    height: 572px;
+    top: 290px;
+    left: -38px;
+}
+
+.lamba-black__info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lamba-black__title{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 32px;
+    padding-right: 50px;
+}
+
+.lamba-black__textbox{
+    font-size: 14px;
+    flex-basis: 437px;
+}
+
+.lamba-black__text{
+    margin-bottom: 30px;
+}
+
+.lamba-black__img{
+    display: block;
+    margin: 170px auto 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.lamba__descr-list{
+    display: flex;
+    justify-content: center;
+    gap: 0 65px;
+    position: relative;
+    z-index: 1;
+}
+
+.lamba_descr-list dd{
+    text-transform: uppercase;
+    
+}
+
+.lamba-white__inner{
+    padding-top: 125px;
+    position: relative;
+}
+
+.lamba-white__inner::before{
+    content: '';
+    position: absolute;
+    background-image: url(/img/pol3.png);
+    width: 274px;
+    height: 257px;
+    top: -26px;
+    left: 364px;
+}
+
+.lamba-white__inner::after{
+    content: '';
+    position: absolute;
+    background-image: url(/img/pol4.png);
+    width: 324px;
+    height: 311px;
+    top: 110px;
+    left: 600px;
+}
+
+.lamba-white__text{
+    margin-bottom: 30px;
+}
+
+.lamba-white__text:first-child{
+    max-width: 285px;
+}
+
+.lamba-white__text:nth-child(2){
+    max-width: 437px;
+}
+
+.lamba-white__text:nth-child(3){
+    max-width: 590px;
+}
+
+.lamba-white__video{
+    margin-top: 100px;
+    background-image: url(../img/img-video.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 264px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lamba-white__video-link span{
+    display: block;
+    color: #fff;
+}
